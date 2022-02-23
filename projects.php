@@ -65,10 +65,14 @@ session_start();
     <!-- todo -->
     <div class="todo-container">
       <div class="status" id="no_status">
-        <h1>No Status</h1>
+        <h1>To do</h1>
         <button id="add_btn" data-target-modal="#todo_form">+ Add Todo</button>
         <div class="todo" draggable="true">
-          Buy a Pizza
+          Frontend
+          <span class="close">&times;</span>
+        </div>
+        <div class="todo" draggable="true">
+          Backend
           <span class="close">&times;</span>
         </div>
       </div>
